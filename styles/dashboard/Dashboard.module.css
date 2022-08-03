@@ -1,0 +1,107 @@
+.dashboardback {
+  background: url("../../assets/images/back.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.dashboardback .dashboardcontainer {
+  margin-left: 270px;
+  padding: 20px;
+  padding-top: 70px;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers #debox, .dashboardback .dashboardcontainer .userspassengersdrivers #debox1, .dashboardback .dashboardcontainer .userspassengersdrivers #debox2, .dashboardback .dashboardcontainer .userspassengersdrivers #debox3 {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  color: white;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers #debox:hover, .dashboardback .dashboardcontainer .userspassengersdrivers #debox1:hover, .dashboardback .dashboardcontainer .userspassengersdrivers #debox2:hover, .dashboardback .dashboardcontainer .userspassengersdrivers #debox3:hover {
+  background: rgba(255, 255, 255, 0.461);
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers .box {
+  background: rgba(209, 209, 209, 0.8);
+  padding: 10px;
+  width: 300px;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers .box .boxitems {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers .box .boxitems .usericon {
+  font-size: 40px;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers .box .boxitems .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardback .dashboardcontainer .userspassengersdrivers .box .boxitems .details small {
+  font-size: 20px;
+}
+.dashboardback .dashboardcontainer .latest {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1, .dashboardback .dashboardcontainer .latest .latestbox2 {
+  width: 50%;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems {
+  padding: 10px;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestheader, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestheader {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestcontainer, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestcontainer {
+  background: rgba(128, 128, 128, 0.403);
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestcontainer h3, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestcontainer h3 {
+  color: white;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestcontainer small, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestcontainer small {
+  color: rgb(194, 191, 191);
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestcontainer span, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestcontainer span {
+  color: rgb(194, 191, 191);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestcontainer .latestcontainer1, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestcontainer .latestcontainer1 {
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.dashboardback .dashboardcontainer .latest .latestbox1:hover, .dashboardback .dashboardcontainer .latest .latestbox2:hover {
+  background: rgba(255, 255, 255, 0.461);
+}/*# sourceMappingURL=Dashboard.module.css.map */

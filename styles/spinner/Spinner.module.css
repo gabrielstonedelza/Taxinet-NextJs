@@ -1,0 +1,20 @@
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: conic-gradient(rgba(0, 0, 0, 0) 10%, #8f44fd);
+  -webkit-animation: spin 0.8s infinite linear;
+          animation: spin 0.8s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}/*# sourceMappingURL=Spinner.module.css.map */

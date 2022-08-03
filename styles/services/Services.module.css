@@ -1,0 +1,52 @@
+.maincontainer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background: url("../../assets/images/svg/animtrans.svg");
+}
+.maincontainer .servicecontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.maincontainer .servicecontainer .servicesbox1,
+.maincontainer .servicecontainer .servicesbox2 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.maincontainer .servicecontainer .servicesbox1 .box,
+.maincontainer .servicecontainer .servicesbox2 .box {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 400px;
+  height: 300px;
+}
+.maincontainer .servicecontainer .servicesbox1 .box .myimages,
+.maincontainer .servicecontainer .servicesbox2 .box .myimages {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.maincontainer .servicecontainer .servicesbox1 .box h3,
+.maincontainer .servicecontainer .servicesbox2 .box h3 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .servicecontainer .servicesbox1,
+.servicecontainer .servicesbox2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .servicecontainer .servicesbox1 .box,
+.servicecontainer .servicesbox2 .box {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Services.module.css.map */

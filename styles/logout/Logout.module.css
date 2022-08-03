@@ -1,0 +1,46 @@
+.logoutcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.logoutcontainer .logoutoptions {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.logoutcontainer .logoutoptions button {
+  display: black;
+  margin-left: auto;
+  padding: 0.75rem 2rem;
+  background: #091034;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 1s ease-in;
+  color: red;
+  font-weight: bold;
+}
+.logoutcontainer .logoutoptions button:hover {
+  background-color: #18ffff;
+  color: black;
+}
+.logoutcontainer .logoutoptions a {
+  display: black;
+  margin-left: auto;
+  padding: 0.5rem 2rem;
+  background: #091034;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 1s ease-in;
+  color: #ffc700;
+}
+.logoutcontainer .logoutoptions a:hover {
+  background-color: #18ffff;
+  color: black;
+}/*# sourceMappingURL=Logout.module.css.map */
