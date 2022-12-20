@@ -8,9 +8,10 @@ import phone from "../assets/images/icons/phone-call.png";
 import footerstyle from "../styles/footercontact/FooterContact.module.css";
 
 const FooterContact = () => {
+  const copyCode = "&#169";
   return (
     <>
-      <div className={footerstyle.footercontact}>
+      <div className={footerstyle.footercontact} id="footer">
         <h2>Contact Us</h2>
         <div className={footerstyle.contactcontainer}>
           <div className={footerstyle.socialmedia}>
@@ -20,7 +21,7 @@ const FooterContact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={facebook} alt="" width={50} height={50} />
+                <Image src={facebook} alt="" width={40} height={40} />
               </a>
             </div>
             <div className={footerstyle.socialbox}>
@@ -29,7 +30,7 @@ const FooterContact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={instagram} alt="" width={50} height={50} />
+                <Image src={instagram} alt="" width={40} height={40} />
               </a>
             </div>
             <div className={footerstyle.socialbox}>
@@ -38,7 +39,7 @@ const FooterContact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={twitter} alt="" width={50} height={50} />
+                <Image src={twitter} alt="" width={40} height={40} />
               </a>
             </div>
             <div className={footerstyle.socialbox}>
@@ -47,18 +48,18 @@ const FooterContact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={youtube} alt="" width={50} height={50} />
+                <Image src={youtube} alt="" width={40} height={40} />
               </a>
             </div>
           </div>
           <div className={footerstyle.contacts}>
             <div className={footerstyle.contactbox}>
-              <Image src={mail} alt="" width={50} height={50} />{" "}
+              <Image src={mail} alt="" width={30} height={30} />{" "}
               taxinetghana@gmail.com
             </div>
             <div className={footerstyle.contactbox}>
-              <Image src={phone} alt="" width={50} height={50} /> +233 271020030
-              | 233 2444950505
+              <Image src={phone} alt="" width={30} height={30} /> +233 271020030
+              | +233 2444950505
             </div>
             <div className={footerstyle.contactbox}>
               <a href="www.facebook.com">Privacy</a>
@@ -70,7 +71,7 @@ const FooterContact = () => {
         </div>
         <br />
         <div className={footerstyle.sitename}>
-          &copy 2022 TaxinetGhana.All Rights Reserved. Designed by Havens
+          © 2022 TaxinetGhana.All Rights Reserved. Designed by Havens
           Software
         </div>
       </div>

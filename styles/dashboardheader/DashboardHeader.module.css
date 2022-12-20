@@ -45,9 +45,14 @@
 .dashboardcontainer .mainnavitems .menulinks .navbarlink:hover {
   border: solid 1px silver;
   border-radius: 5px;
-  background: #FFD703;
+  background: #ffd703;
   width: 100%;
   display: flex;
+}
+.dashboardcontainer .mainnavitems .menulinks .navbarlink .navlinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .dashboardcontainer .mainnavitems .bars {
   display: none;

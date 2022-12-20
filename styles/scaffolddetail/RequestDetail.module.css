@@ -1,1 +1,98 @@
-/*# sourceMappingURL=RequestDetail.module.css.map */
+.detailback {
+  background: url("../../assets/images/back.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.detailback .detailcontainer {
+  margin-left: 270px;
+  padding: 20px;
+  padding-top: 70px;
+  margin-left: 230px;
+  padding-top: 30px;
+}
+.detailback .detailcontainer .maindetailcontainer {
+  display: flex;
+  gap: 2rem;
+}
+.detailback .detailcontainer .maindetailcontainer .details {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  color: white;
+  padding: 10px;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailsheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailsheader h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailsheader button {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailsheader button:hover {
+  background: rgba(255, 255, 255, 0.461);
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailsheader img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailshedule {
+  display: flex;
+  flex-direction: column;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailshedule .box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailshedule .box p {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+  text-transform: capitalize;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailshedule .box p span {
+  font-style: italic;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailshedule p.description {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+  text-transform: capitalize;
+}
+.detailback .detailcontainer .maindetailcontainer .details .detailshedule p.description span {
+  font-style: italic;
+}/*# sourceMappingURL=RequestDetail.module.css.map */

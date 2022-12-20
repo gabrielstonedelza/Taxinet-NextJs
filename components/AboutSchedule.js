@@ -6,7 +6,7 @@ import appStorePic from "../assets/images/icons/app-store.png"
 const AboutSchedule = () => {
   return (
     <>
-      <div className={aboutStyles.aboutschedulecontainer}>
+      <div className={aboutStyles.aboutschedulecontainer} id="aboutSchedule">
         <div className={aboutStyles.contents}>
           <h2>About Taxinet Scheduling</h2>
           <div className={aboutStyles.scheduleoptions}>

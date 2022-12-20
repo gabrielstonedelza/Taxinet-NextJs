@@ -55,6 +55,11 @@
           width: 100%;
           display: flex;
         }
+        .navlinks{
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
       }
     }
     .bars {

@@ -9,38 +9,42 @@ import pic4 from "../assets/images/pexels-tim-samuel-5835265.jpg";
 const Services = () => {
   return (
     <>
-      <div className={videoStyle.videocontainer}>
+    <div id="services">
+      {/* <div className={videoStyle.videocontainer} >
         <video autoPlay playsInline muted loop>
           <source src="../Taxinet-Services.mp4" type="video/mp4" />
         </video>
-      </div>
+      </div> */}
       <div className={servicestyles.maincontainer}>
 
       <div className={servicestyles.servicecontainer}>
+        <h2>Our Services</h2>
+        <br />
         <div className={servicestyles.servicesbox1}>
           <div className={servicestyles.box}>
             <Image src={pic4} alt="" className={servicestyles.myimages} width={400} height={300} layout=""/>
-            <h3>Taxinet Ride</h3>
+            <h3>Ride</h3>
           </div>
           <div className={servicestyles.box}>
             <Image src={pic2} alt="" className={servicestyles.myimages} width={400} height={300} layout=""/>
-            <h3>Taxinet Luxury</h3>
+            <h3>Luxury</h3>
           </div>
         </div>
         <br />
         <div className={servicestyles.servicesbox2}>
           <div className={servicestyles.box}>
             <Image src={pic3} alt="" className={servicestyles.myimages} width={400} height={300} layout=""/>
-            <h3>Taxinet Delivery</h3>
+            <h3>Delivery</h3>
           </div>
           <div className={servicestyles.box}>
             <Image src={pic1} alt="" className={servicestyles.myimages} width={400} height={300} layout=""/>
-            <h3>Taxinet Truck</h3>
+            <h3>Truck</h3>
           </div>
         </div>
       </div>
       </div>
       <br />
+    </div>
     </>
   );
 };

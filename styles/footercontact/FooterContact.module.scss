@@ -9,6 +9,7 @@
     padding-bottom: 20px;
     font-size: 30px;
     text-align: center;
+    color: #fff;
   }
   .contactcontainer {
     max-width: 1200px;
@@ -36,9 +37,10 @@
         display: flex;
         gap: 1rem;
         align-items: center;
+        color:#fff;
         img {
-          width: 30px;
-          height: 30px;
+          width: 20px;
+          height: 20px;
         }
         a {
           color: #86868b;
@@ -46,9 +48,12 @@
       }
     }
   }
-  .site-name {
-    display: flex;
-    justify-content: center;
+  .sitename {
+    text-align: center;
+    color: #fff;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
   }
 }
 

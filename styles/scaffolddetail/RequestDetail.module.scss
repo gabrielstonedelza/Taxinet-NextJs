@@ -1,0 +1,74 @@
+@import "../constants";
+
+.detailback {
+  @include setBackground;
+  .detailcontainer {
+    @include setLeftMargin;
+    margin-left: 230px;
+    padding-top: 30px;
+    .maindetailcontainer {
+      // @include setGlass;
+      display: flex;
+      gap: 2rem;
+      .details {
+        .detailsheader {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+          h2 {
+            text-align: center;
+            font-size: 30px;
+            color: $primary-color;
+          }
+          button{
+            @include setButton;
+          }
+          img {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          }
+        }
+        @include setGlass;
+        .detailshedule {
+          display: flex;
+          flex-direction: column;
+          .box{
+            display: flex;
+            justify-content: space-between;
+            gap:1rem;
+            p {
+              padding: 10px;
+              color: $primary-color;
+              font-size: 20px;
+              line-height: 1.1666666667;
+              font-weight: 600;
+              letter-spacing: 0.009em;
+              text-transform: capitalize;
+              span {
+                // color: $main-color;
+                font-style: italic;
+              }
+            }
+          }
+          p.description {
+            padding: 10px;
+            color: $primary-color;
+            font-size: 20px;
+            line-height: 1.1666666667;
+            font-weight: 600;
+            letter-spacing: 0.009em;
+            text-transform: capitalize;
+            span {
+              // color: $main-color;
+              font-style: italic;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}

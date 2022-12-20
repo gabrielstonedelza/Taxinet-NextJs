@@ -1,13 +1,16 @@
 .maincontainer {
   width: 100%;
   height: auto;
-  position: absolute;
   background: url("../../assets/images/svg/animtrans.svg");
 }
 .maincontainer .servicecontainer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+.maincontainer .servicecontainer h2 {
+  text-align: center;
+  font-size: 40px;
 }
 .maincontainer .servicecontainer .servicesbox1,
 .maincontainer .servicecontainer .servicesbox2 {

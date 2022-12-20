@@ -13,20 +13,40 @@ $clr-gray600: #2a324b;
 $clr-bg: #060b23;
 $radius: 1rem;
 
+.mainformcontainer{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#formbox{
+  display: flex;
+  gap: 1rem;
+}
+.close{
+  font-size: 30px;
+  cursor: pointer;
+  transition: 1s ease;
+  &:hover{
+    transform: rotate(90deg);
+  }
+}
 
 .forform {
   font-family: monospace;
   font-weight: 500;
-  margin-top: 150px;
-
-  // height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
   color: #ffc700;
   padding: 20px;
   h3{
-    padding-top: 20px;
+    // padding-top: 10px;
     padding-bottom: 20px;
     font-size: 25px;
   }
@@ -39,6 +59,9 @@ $radius: 1rem;
     border-radius: $radius;
     background-color: $clr-bg;
     transition: 1s ease;
+    p{
+      padding-bottom: 10px;
+    }
     .fullerror {
       opacity: 0;
       -moz-animation: cssAnimation 0.5s;

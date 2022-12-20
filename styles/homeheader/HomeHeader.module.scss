@@ -2,116 +2,58 @@
 
 .homeheadercontainer {
   position: fixed;
-  top: 0;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.8);
-  top: 0;
-  right: 0;
+  top: 300px;
+  right: 10;
   left: 0;
   padding: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 
   .mainnavitems {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
-    max-width: 980px;
+    // max-width: 980px;
     margin: 0 auto;
-    .title {
-      color: $main-color;
-      font-size: 30px;
-    }
-    .bars {
-      cursor: pointer;
-      display: none;
-      color: white;
-    }
+
     .menulinks {
       display: flex;
-      //   gap: 3rem;
+      flex-direction: column;
+      gap: 3rem;
       .navbarlink {
         font-size: 20px;
-        padding-left: 25px;
+        padding-left: 5px;
         a {
-            font-weight: bold;
+          font-weight: bold;
           color: $main-color;
           transition: 1s ease;
           &:hover {
             color: $main-color;
-            border-bottom: 0.3rem solid $main-color;
-            padding-bottom: 0.5rem;
           }
         }
       }
     }
-  }
 
-  .onsmallscreen {
-    display: none;
-    padding-top: 60px;
-    width: 100vw;
-    background-color: black;
-    position: fixed;
-    z-index: 1000;
-    transition: ease 1s;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-    //   border: solid 1px $main-color;
-   
-    .mainnavitems {
-        padding-top: 150px;
-      .title {
-        display: none;
-      }
-      .close {
-        font-size: 25px;
-        color: #fff;
-        cursor: pointer;
-        margin: 20px;
-        transition: ease 0.5s;
-        cursor: pointer;
-        &:hover {
-          transform: rotate(90deg);
-          color: $main-color;
+    /* media queries */
+
+    /* media queries */
+  }
+  @media (max-width: 768px) {
+    .homeheadercontainer {
+      padding: 0.9rem 3%;
+      .mainnavitems {
+        .menulinks {
+          display: none;
+        }
+        .bars {
+          display: block;
         }
       }
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      .menulinks {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .navbarlink {
-          color: #fff;
-          font-size: 20px;
-          padding: 20px;
-        }
-      }
-    }
-  }
-
-  /* media queries */
-
-  /* media queries */
-}
-@media (max-width: 768px) {
-  .homeheadercontainer {
-    padding: 0.9rem 3%;
-    .mainnavitems {
-      .menulinks {
-        display: none;
-      }
-      .bars {
+      .onsmallscreen {
         display: block;
       }
-    }
-    .onsmallscreen {
-      display: block;
     }
   }
 }

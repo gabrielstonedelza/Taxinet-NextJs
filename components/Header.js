@@ -12,7 +12,7 @@ import {
   FaUsers,
   FaUser,
   FaSignOutAlt,
-  FaCarAlt
+  FaCarAlt,
 } from "react-icons/fa";
 import { LoginContext } from "../context/LoginContext";
 
@@ -38,48 +38,77 @@ const Header = () => {
           <br />
           <div className={dashboardstyles.menulinks}>
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/dashboard">Dashboard</Link>
-              <FaRegChartBar />
+              <Link href="/dashboard">
+                <div className={dashboardstyles.navlinks}>
+                  Dashboard
+                  <FaRegChartBar />
+                </div>
+              </Link>
             </div>
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/requests">Requests</Link>
-              <FaCarAlt />
+              <Link href="/requests">
+                <div className={dashboardstyles.navlinks}>
+                  Requests
+                  <FaCarAlt />
+                </div>
+              </Link>
             </div>
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/notifications">Notifications</Link>
-              <FaBell />
+              <Link href="/notifications">
+                <div className={dashboardstyles.navlinks}>
+                  Notifications
+                  <FaBell />
+                </div>
+              </Link>
             </div>
-            <div className={dashboardstyles.navbarlink}>
+            {/* <div className={dashboardstyles.navbarlink}>
               <Link href="/messages">Messages</Link>
               <FaComments />
+            </div> */}
+            <div className={dashboardstyles.navbarlink}>
+              <Link href="/users">
+                <div className={dashboardstyles.navlinks}>
+                  Users
+                  <FaUsers />
+                </div>
+              </Link>
             </div>
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/users">Users</Link>
-              <FaUsers />
+              <Link href="/passengers">
+                <div className={dashboardstyles.navlinks}>
+                  Passengers
+                  <FaUserFriends />
+                </div>
+              </Link>
             </div>
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/passengers">Passengers</Link>
-              <FaUserFriends />
-            </div>
-            <div className={dashboardstyles.navbarlink}>
-              <Link href="/drivers">Drivers</Link>
-              <FaUserFriends />
+              <Link href="/drivers">
+                <div className={dashboardstyles.navlinks}>
+                  Drivers
+                  <FaUserFriends />
+                </div>
+              </Link>
             </div>
             <div className={dashboardstyles.navbarlink}>
               <Link href="/investors">Investors</Link>
               <FaUsers />
             </div>
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/inventories">Inventories</Link>
-              <FaRegCalendarCheck />
+              <Link href="/inventories">
+                <div className={dashboardstyles.navlinks}>
+                  Inventories
+                  <FaRegCalendarCheck />
+                </div>
+              </Link>
             </div>
+
             <div className={dashboardstyles.navbarlink}>
-              <Link href="/profile">Profile</Link>
-              <FaUser />
-            </div>
-            <div className={dashboardstyles.navbarlink}>
-              <Link href="/logout">Logout</Link>
-              <FaSignOutAlt/>
+              <Link href="/logout">
+                <div className={dashboardstyles.navlinks}>
+                  Logout
+                  <FaSignOutAlt />
+                </div>
+              </Link>
             </div>
           </div>
           <div className={dashboardstyles.bars}>
@@ -111,6 +140,7 @@ const Header = () => {
             </div>
           </div>
         )}
+        
       </div>
     </>
   );

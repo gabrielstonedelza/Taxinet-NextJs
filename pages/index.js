@@ -8,6 +8,8 @@ import styles from '../styles/Home.module.css'
 import VideoShowCase from '../components/VideoShowCase'
 import AboutSchedule from '../components/AboutSchedule'
 import FooterContact from "../components/FooterContact"
+import NewService from "../components/NewService";
+import Services from "../components/Services"
 
 
 export default function Home() {
@@ -22,8 +24,9 @@ export default function Home() {
         <link rel="icon" href="/taxinet_cab.png" />
       </Head>
       <VideoShowCase />
+      <Services />
       <AboutSchedule />
-      {/* <FooterContact /> */}
+      <FooterContact />
     </div>
   )
 }

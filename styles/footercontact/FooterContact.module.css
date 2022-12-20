@@ -9,6 +9,7 @@
   padding-bottom: 20px;
   font-size: 30px;
   text-align: center;
+  color: #fff;
 }
 .footercontact .contactcontainer {
   max-width: 1200px;
@@ -34,17 +35,18 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  color: #fff;
 }
 .footercontact .contactcontainer .contacts .contactbox img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 .footercontact .contactcontainer .contacts .contactbox a {
   color: #86868b;
 }
-.footercontact .site-name {
-  display: flex;
-  justify-content: center;
+.footercontact .sitename {
+  text-align: center;
+  color: #fff;
 }
 
 @media only screen and (max-width: 600px) {

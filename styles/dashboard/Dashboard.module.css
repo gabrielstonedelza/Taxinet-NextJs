@@ -101,7 +101,4 @@
 .dashboardback .dashboardcontainer .latest .latestbox1 .latestitems .latestcontainer .latestcontainer1, .dashboardback .dashboardcontainer .latest .latestbox2 .latestitems .latestcontainer .latestcontainer1 {
   cursor: pointer;
   padding-bottom: 10px;
-}
-.dashboardback .dashboardcontainer .latest .latestbox1:hover, .dashboardback .dashboardcontainer .latest .latestbox2:hover {
-  background: rgba(255, 255, 255, 0.461);
 }/*# sourceMappingURL=Dashboard.module.css.map */
