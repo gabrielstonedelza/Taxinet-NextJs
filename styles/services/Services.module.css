@@ -80,6 +80,9 @@
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   transition: 1s ease;
 }
+.maincontainer .morecontainer .moreitems .item h3 {
+  text-align: center;
+}
 .maincontainer .morecontainer .moreitems .item:hover {
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 }
