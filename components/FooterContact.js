@@ -62,10 +62,10 @@ const FooterContact = () => {
               | +233 2444950505
             </div>
             <div className={footerstyle.contactbox}>
-              <a href="www.facebook.com">Privacy</a>
+              <a href="#">Privacy</a>
             </div>
             <div className={footerstyle.contactbox}>
-              <a href="www.facebook.com">Terms</a>
+              <a href="#">Terms</a>
             </div>
           </div>
         </div>
