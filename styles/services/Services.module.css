@@ -50,6 +50,7 @@
   align-items: center;
 }
 .maincontainer .morecontainer button {
+  color: black;
   cursor: pointer;
   padding-top: 5px;
   padding-bottom: 5px;
