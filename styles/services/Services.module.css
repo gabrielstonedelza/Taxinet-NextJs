@@ -70,6 +70,7 @@
 .maincontainer .morecontainer .moreitems {
   display: flex;
   gap: 1rem;
+  padding: 20px;
 }
 .maincontainer .morecontainer .moreitems .item {
   padding-top: 5px;
