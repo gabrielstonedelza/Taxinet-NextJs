@@ -51,15 +51,19 @@ const HomeHeader = () => {
           <div className={homestyle.navbarlink}>
               {/* <Link href="/">Home</Link> */}
               <Image className="btn-scroll" onClick={handleClickScrollHome} src={HomeImg} width={40} height={40} alt="services-image"/>
+              <h4 className={homestyle.glow}>Home</h4>
             </div>
             <div className={homestyle.navbarlink}>
             <Image className="btn-scroll" onClick={handleClickScrollService} src={ServicesImg} width={40} height={40} alt="services-image"/>
+            <h4 className={homestyle.glow}>Services</h4>
             </div>
             <div className={homestyle.navbarlink}>
             <Image className="btn-scroll" onClick={handleClickScrollAbout} src={AboutImg} width={40} height={40} alt="services-image"/>
+            <h4 className={homestyle.glow}>About</h4>
             </div>
             <div className={homestyle.navbarlink}>
             <Image className="btn-scroll" onClick={handleClickScrollContact} src={ContactImg} width={40} height={40} alt="services-image"/>
+            <h4 className={homestyle.glow}>Contact</h4>
             </div>
           </div>
         </div>

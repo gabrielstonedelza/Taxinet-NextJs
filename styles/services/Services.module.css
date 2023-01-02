@@ -41,6 +41,48 @@
 .maincontainer .servicecontainer .servicesbox2 .box h3 {
   text-align: center;
 }
+.maincontainer .morecontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.maincontainer .morecontainer button {
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  font-size: 20px;
+}
+.maincontainer .morecontainer button:hover {
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  color: #fff;
+}
+.maincontainer .morecontainer .moreitems {
+  display: flex;
+  gap: 1rem;
+}
+.maincontainer .morecontainer .moreitems .item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  transition: 1s ease;
+}
+.maincontainer .morecontainer .moreitems .item:hover {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
 
 @media only screen and (max-width: 600px) {
   .servicecontainer .servicesbox1,

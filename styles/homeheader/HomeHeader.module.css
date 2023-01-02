@@ -22,8 +22,23 @@
   gap: 3rem;
 }
 .homeheadercontainer .mainnavitems .menulinks .navbarlink {
+  cursor: pointer;
   font-size: 20px;
   padding-left: 5px;
+  transition: 1.5s ease;
+}
+.homeheadercontainer .mainnavitems .menulinks .navbarlink .glow {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.homeheadercontainer .mainnavitems .menulinks .navbarlink h4 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: none;
 }
 .homeheadercontainer .mainnavitems .menulinks .navbarlink a {
   font-weight: bold;
@@ -32,6 +47,25 @@
 }
 .homeheadercontainer .mainnavitems .menulinks .navbarlink a:hover {
   color: #ffd703;
+}
+.homeheadercontainer .mainnavitems .menulinks .navbarlink:hover h4 {
+  display: block;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 @media (max-width: 768px) {
   .homeheadercontainer .homeheadercontainer {

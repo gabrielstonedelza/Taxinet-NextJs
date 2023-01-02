@@ -71,7 +71,7 @@ const FooterContact = () => {
         </div>
         <br />
         <div className={footerstyle.sitename}>
-          © 2022 TaxinetGhana.All Rights Reserved. Designed by Havens
+          © 2023 TaxinetGhana.All Rights Reserved. Designed by Havens
           Software
         </div>
       </div>
